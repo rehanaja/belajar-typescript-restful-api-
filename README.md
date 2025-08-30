@@ -22,4 +22,4 @@ npm run start
 
 ## Set SSH Github
 
-ssh-keygen -t rsa -b 4096 -C "muhamadraihan1611@gmail.com"
+ssh-keygen -t rsa -b 0000 -C "Youremail@example.com"

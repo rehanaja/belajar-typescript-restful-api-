@@ -51,18 +51,6 @@ Request Header :
 
 - X-API-TOKEN : token
 
-Request Body :
-
-```json
-{
-  "street": "jalan apa",
-  "city": "kota apa",
-  "province": "provinsi apa",
-  "country": "negara apa",
-  "postal_code": "12121"
-}
-```
-
 Response Body (Succed) :
 
 ```json

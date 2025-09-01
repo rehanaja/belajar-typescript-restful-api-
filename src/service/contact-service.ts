@@ -1,6 +1,6 @@
 import { prisma } from "../application/database";
 import { ResponseError } from "../error/response-error";
-import { Contact, User } from "../generated/prisma";
+import { Contact, User } from "@prisma/client";
 import {
   ContactResponse,
   CreateContactRequest,
@@ -10,7 +10,6 @@ import {
 } from "../model/contact-model";
 import { Pageable } from "../model/page";
 import { ContactValidation } from "../validation/contact-validation";
-import { UserValidation } from "../validation/user-validation";
 import { Validation } from "../validation/validation";
 
 export class ContactService {

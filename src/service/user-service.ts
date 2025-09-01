@@ -1,6 +1,6 @@
 import { prisma } from "../application/database";
 import { ResponseError } from "../error/response-error";
-import { User } from "../generated/prisma";
+import { User } from "@prisma/client";
 import {
   CreateUserRequest,
   LoginUserRequest,

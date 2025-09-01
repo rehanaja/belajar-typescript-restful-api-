@@ -1,4 +1,4 @@
-import { Contact } from "../generated/prisma";
+import { Contact } from "@prisma/client";
 
 export type ContactResponse = {
   id: number;

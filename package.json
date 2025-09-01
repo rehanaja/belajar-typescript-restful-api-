@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand",
+    "build": "npx tsc",
+    "start": "node dist/main.js"
   },
   "jest": {
     "transform": {
@@ -34,6 +36,7 @@
     "@types/uuid": "^10.0.0",
     "babel-jest": "^30.0.5",
     "jest": "^30.0.5",
+    "postinstall": "^0.11.2",
     "prisma": "^6.15.0",
     "supertest": "^7.1.4",
     "ts-jest": "^29.4.1",
